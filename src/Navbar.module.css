@@ -1,0 +1,143 @@
+/* default styling *
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  
+  /* navbar */
+ 
+  .navbar {
+    background-color: #d2ab93;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    font-family: cursive;
+  }
+  .navbar a {
+    color: #704030;
+    font-size: 20px;
+    font-weight: 900;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  body{
+    margin: 0px;
+  }
+
+  
+  /* logo  */
+  .logo {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: contain;
+  }
+  .logo_image{
+    object-fit: contain;
+  }
+  
+  
+  /* ul  */
+  .navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  /* media queries */
+  
+  @media screen and (max-width: 780px){
+    
+    /* hamburger */
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .bar {
+          background-color: #bd8944;
+          width: 20px;
+          height: 3px;
+          display: block;
+          margin: 5px;
+          -webkit-transition: 0.3s ease-in-out;
+          transition: 0.3s ease-in-out;
+      }
+  
+    /* adding active class to the bars  */
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+  
+    /* navMenu */
+  
+    .navMenu{
+      position: absolute;
+      flex-direction: column;
+      gap: 0;
+      top: 12px;
+      left: -107%;
+      text-align: start;
+      width: 100%;
+      transition: 0.7s ease-in-out;
+      background-color: #f2ede6;
+      padding: 10px;
+      z-index: 100;
+    }
+  
+    .navMenu.active{
+      left: 0;
+    }
+  
+    .navMenu li {
+      margin: 16px 0;
+    }
+
+    .About{
+      background-color:#f2ede6;
+      height: 1000px;
+    }
+    .aboutLeft{
+      width: 90%; 
+      height: 43%;
+      float:left;
+    }
+    .aboutimg1{
+      width: 95%;
+      height: 450px;
+      padding-top: 4%;
+      padding-left: 5%;
+      opacity: 0.7;
+      transform: rotate(-3deg);
+      object-fit: contain;
+    }
+    .aboutRight{
+      width: 60%;
+      height: 100%;
+      float:right
+    }
+  }
+
+

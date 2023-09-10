@@ -1,0 +1,445 @@
+
+.App{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 4%;
+  left: 0px;
+  background: url("./img/landing_page_BACKGROUND.jpg");
+}
+body{
+  margin: 0px;
+}
+.root{
+  margin: 0px; 
+}
+.backgroudImg{
+  /* background: url("./img/landing_page_BACKGROUND.jpg"); */
+  background: #f2ede6; 
+  /* position: absolute; */
+  width: 100%;
+  top: 60px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+@media only screen and (max-width: 780px) {
+  .backgroudImg{
+    background: url("./img/landing_page_BACKGROUND.jpg");
+    /* background: #f2ede6; */
+    /* position: absolute; */
+    width: 100%;
+    top: 28px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .App_L {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .carousel-container {
+    max-width: 750px;
+  }
+  .About{
+    background-color:#f2ede6!important;
+    height: 100%!important;
+  }
+  .aboutLeft{
+    width: 90%!important; 
+    height: 50%!important;
+    float:unset!important;
+    padding-top: 3%!important;
+  }
+  .aboutimg1{
+    width: 95%!important;
+    height: 450px!important;
+    padding-top: 4%!important;
+    padding-left: 5%!important;
+    opacity: 0.7!important;
+    transform: rotate(-3deg)!important;
+    object-fit: contain!important;
+  }
+  .aboutRight{
+    width: 60%!important;
+    height: 62%!important;
+    float: unset!important;
+  }
+  .innerRight{
+    margin: 0%!important;
+    margin-left: 10%!important;
+    margin-right: 10%!important;
+    height: 60%!important;
+    width: 150%!important;
+  }
+  .column {
+    float: unset!important;
+    width: 100%!important;
+    height: 100%!important; /* Should be removed. Only for demonstration */
+  }
+  .css-48lmrh-MuiImageList-root {
+    display: block!important; 
+    overflow-y: auto !important;
+    list-style: none!important;
+    padding: 0px!important;
+    -webkit-overflow-scrolling: touch!important;
+    width: 100%!important;
+    height: 100%!important;
+    margin-top: 0%!important;
+}
+.servicesImage_1{
+  height: 20%!important;
+}
+.servicesImage_2{
+  height: 20%!important;
+}
+h2 {
+  font-size: 15px!important;
+}
+h1 {
+  font-size: 15px!important;
+}
+.css-6uwvcp>:not(style) {
+  margin: 20px!important;
+  width: 87px!important;
+  height: 37px!important;
+  border-radius: 35px!important;
+  justify-tracks: center!important;
+  font-size: 15px!important;
+  text-align: center!important;
+  padding-top: 2.2%!important;
+  font-family: Trebuchet MS!important;
+  background-color: cadetblue!important;
+  color: white!important;
+  margin-left: 15%!important;
+}
+
+}
+h2 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 3px solid #704030; 
+  line-height: 0.1em;
+  margin: 10px 0 0px; 
+  font-family:'Trebuchet MS';
+  color: #704030;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+h2 span { 
+   background:#f2ede6; 
+   padding:0 5px; 
+}
+
+h4 {
+  width: 100%; 
+  text-align: center; 
+  margin: 10px 0 0px; 
+  font-family:'Trebuchet MS';
+  color: #704030;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 span { 
+  background:#f2ede6; 
+  padding:0 5px; 
+}
+
+h1 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 3px solid #704030; 
+  line-height: 0.1em;
+  margin: 10px 0 0px; 
+  font-family:'Trebuchet MS';
+  color: #704030;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+} 
+
+h1 span { 
+   background:#f2ede6; 
+   padding:0 5px; 
+}
+
+.About{
+  background-color:#f2ede6;
+  height: 900px;
+}
+.Services{
+  background-color:#f2ede6;
+  height: 50%;
+ 
+}
+.Services_1{
+  background-color:#f2ede6;
+  height: 50%;
+  padding-top: 2%;
+}
+.Services_2{
+  background-color:#f2ede6;
+  height: 50%;
+  padding-top: 1%;
+}
+.servicesImage_1{
+  width: 35%;
+  height: 450px;
+  padding-top: 4%;
+  padding-left: 10%;
+  opacity: 1;
+  transform: rotate(-2deg);
+  object-fit: contain;
+  opacity: 70%;
+}
+.servicesImage_1:hover{
+  opacity: 100%;
+  transition: opacity 1s;
+}
+.servicesImage_2{
+  width: 20%;
+  height: 450px;
+  padding-top: 4%;
+  padding-left: 10%;
+  opacity: 1;
+  transform: rotate(-2deg);
+  object-fit: contain;
+  opacity: 70%;
+}
+.servicesImage_2:hover{
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+
+.book{
+  background-color:#f2ede6;
+  width: 100%; 
+  height: 2000px;
+}
+.bookForm{
+  background-color:#f2ede6;
+  opacity: 0.6;
+  width: 64%; 
+  height: 10%;
+  margin: auto;
+  
+}
+.formSpacing{
+  margin-top: 2%;
+}
+.formLabel{
+  width: 48%;
+}
+.formLabel1{
+  width: 100%;
+}
+.formLabel2{
+  width: 30%;
+}
+.formLabel3{
+  width: 100%;
+}
+.formCheckBox{
+
+}
+.formButton{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.sliderimg{
+  width: 100%;
+    height: 100%;
+  /* height: auto;
+  object-fit: cover;
+  justify-items: center; */
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+}
+
+.box1 img {
+  object-fit: contain;
+  position: absolute;
+}
+.galleryCover1{
+  position: absolute !important;
+  width:100% !important;
+  height: 100% !important;
+  z-index: -1 !important;
+  left: 0px !important;
+  top: 0px !important;
+  object-fit: cover !important;
+}
+
+.aboutimg1{
+  width: 95%;
+  height: 600px;
+  padding-top: 4%;
+  padding-left: 5%;
+  opacity: 0.7;
+  transform: rotate(-3deg);
+  object-fit: contain;
+}
+.bookimg1{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.AboutText{
+     float: center;
+}
+.aboutName{
+  font-size: 33px;
+  font-family:'Trebuchet MS';
+  color: #704030;
+}
+.aboutPassage{
+  font-size: 20px;
+  opacity: 0.7;
+  line-height: 2;
+  color: #704030;
+}
+.aboutLocation{
+  opacity: 0.8;
+  color: dimgrey;
+}
+.aboutLeft{
+  width: 40%; 
+  height: 100%;
+  float:left;
+}
+.aboutRight{
+  width: 60%;
+  height: 100%;
+  float:right
+}
+.innerRight{
+  margin: 10%;
+  height: 60%;
+  width: 75%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+.column:hover .overlay {
+  opacity: 0.4;
+}
+.overlay {
+  position: relative;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  float: left;
+  height: 50%;
+}
+.text {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.galleryCover{
+  width:100%;
+}
+
+.galleryCoverOver{
+  position: absolute;
+  z-index: 0;
+  height: 624px;
+  left: 194px;
+  width: 1138px;
+}
+
+
+
+.Nav {
+  display: grid;
+  grid-area: nav;
+  grid-template-columns:335px repeat(4, auto) 67px;
+  align-items: center;
+  justify-items: center;
+  background-color: #d2ab93;
+  /* background-color: #f2ede6; */
+  height: 40px;
+  font-family: cursive;
+  width: 100%;
+}
+.Nav a {
+  color: #704030;
+  font-size: 20px;
+  font-weight: 900;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.Nav a:hover {
+  transform: scale(1.1);
+  color: #d2d0d0;
+}
+.Nav button {
+  padding: 5px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: #150505;
+  font-weight: 300;
+  background-color: rgba(255, 0, 0, 0.5);
+  box-shadow: 0px 5px 0px 0px rgba(255, 0, 0, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 70ms;
+  height: 30px;
+}
+
+.Nav button:active {
+  transform: translateY(3px);
+  box-shadow: 0px 2px 0px 0px rgba(255, 0, 0, 0.25);
+}
+.paperText{
+color: blue;
+}
+.App_L {
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.carousel-container {
+  /* max-width: 750px; */
+}
+.carousel .slide img {
+  width: 100%;
+  /* vertical-align: top; */
+  /* border: 0; */
+  height: 709px ;
+  object-fit: cover ;
+}
